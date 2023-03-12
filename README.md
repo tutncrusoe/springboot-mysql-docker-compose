@@ -48,8 +48,9 @@ spring.profiles.active=docker
 
 - sudo docker rmi -f <Image ID mysql_local> <Image ID springboot-mysql-docker-network>
 - sudo docker-compose up -d => Starting mysql_network ... done
-- sudo docker-compose down
 - sudo docker-compose up -d --build
+- sudo docker-compose up (if built)
+- sudo docker-compose down
 - sudo docker-compose down --rmi all
 
 # Tutorials on Java Guides
